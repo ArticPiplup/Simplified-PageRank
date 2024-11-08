@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/HP/Documents/UniversityOfFlorida/Fall2024/COP3530/PageRank/P2-Catch-Template/cmake-build-debug/Tests-b12d07c_tests.cmake")
+  include("C:/Users/HP/Documents/UniversityOfFlorida/Fall2024/COP3530/PageRank/P2-Catch-Template/cmake-build-debug/Tests-b12d07c_tests.cmake")
+else()
+  add_test(Tests_NOT_BUILT-b12d07c Tests_NOT_BUILT-b12d07c)
+endif()
